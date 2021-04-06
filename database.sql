@@ -130,3 +130,13 @@ alter table PAGO add constraint FK_RELATIONSHIP_6 foreign key (CEDULA)
 alter table RECAUDO add constraint FK_RELATIONSHIP_4 foreign key (CEDULA)
       references DOCTOR (CEDULA) on delete restrict on update restrict;
 
+
+insert into cuenta(email, contrasenha) values('hadiazo@unal.edu.co', '1234');
+
+insert into cuenta(email, contrasenha) values('xsata@hotmail.com', '1234');
+
+insert into doctor(cedula, nombres, apellidos, fecha_nacimiento, email, especialidad, empleador) 
+values('2398934430', 'Juan', 'Gómez Vélez', '1980-03-02', "hadiazo@unal.edu.co", "Obstetricia", "Nueva EPS");
+
+insert into doctor(cedula, nombres, apellidos, fecha_nacimiento, email, especialidad, empleador) 
+values('2398934', 'Luis Carlos', 'Martínez', '1983-11-24', "xsata@hotmail.com", "Medicina General", "HUN");
