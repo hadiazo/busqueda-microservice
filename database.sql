@@ -4,7 +4,7 @@
 /*==============================================================*/
 
 
-drop table if exists CITA;
+/*drop table if exists CITA;
 
 drop table if exists CUENTA;
 
@@ -16,7 +16,7 @@ drop table if exists PACIENTE;
 
 drop table if exists PAGO;
 
-drop table if exists RECAUDO;
+drop table if exists RECAUDO;*/
 
 /*==============================================================*/
 /* Table: CITA                                                  */

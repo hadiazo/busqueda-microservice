@@ -1,4 +1,4 @@
-package com.example.busqueda;
+package com.example.busqueda.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

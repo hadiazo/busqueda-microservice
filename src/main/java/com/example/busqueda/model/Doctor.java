@@ -1,4 +1,4 @@
-package com.example.busqueda;
+package com.example.busqueda.model;
 
 import java.io.Serializable;
 import javax.persistence.Column;
@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import java.sql.*;
 
 @Entity
-@Table(name = "doctor")
+@Table(name = "doctors")
 public class Doctor implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
@@ -35,6 +35,10 @@ public class Doctor implements Serializable {
 	
 	@Column(name = "empleador")
 	private String empleador;
+	
+	public Doctor() {
+        super();
+    }
 
 	public Doctor(String cedula, String nombres, String apellidos, Date fecha_nacimiento, String email,
 			String especialidad, String empleador) {
