@@ -1,1 +1,0 @@
-Hello MVC using Spring Boot microservice
